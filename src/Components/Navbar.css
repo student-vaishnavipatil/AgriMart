@@ -1,0 +1,35 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding:5px;
+    background-color:rgb(91, 105, 128);
+    color:white;
+    
+}
+.login{
+    margin-right:10px;
+}
+li{
+    text-decoration: none;
+}
+.left{
+    display:flex;
+    align-items:center;
+}
+.button{
+    padding:10px;
+    margin-right:10px;
+    border:none;
+    background-color: rgb(78, 193, 78);
+    color:white;
+    border-radius: 7px;;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+}

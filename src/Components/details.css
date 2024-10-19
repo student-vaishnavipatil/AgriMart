@@ -1,0 +1,73 @@
+/* Details.css */
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .right {
+    flex: 2;
+  }
+  
+  .img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .right h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .right p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    margin-bottom: 0;;
+  }
+  
+  .right p strong {
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #e63946;
+    font-size: 22px;
+  }
+  .chatbtn{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #025aa5;
+  }
+  
